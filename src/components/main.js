@@ -12,10 +12,8 @@ function Main() {
   } else {
     return (
       <div>
-        <Logout></Logout>
-        <h1>Componente principal</h1>
-        <Panel></Panel>
         <Profile></Profile>
+        <Logout></Logout>
       </div>
     );
   }
